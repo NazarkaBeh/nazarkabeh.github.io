@@ -1,1 +1,0 @@
-# nazarkabeh.github.io
