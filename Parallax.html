@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <style>
     body
@@ -10,11 +11,9 @@
       background-attachment: fixed;
       background-color: #5F9EA0;
       font-family: Calibri;
-      width: 1000px;
       color: white;
-      margin: 0px 0px 0px 475px
     }
-    @@media only screen and (max-device-width: 900px){
+    @media only screen and (max-width: 900px){
       body{
         background-attachment: scroll;
       }
@@ -24,17 +23,14 @@
       font-weight: bold;
       font-style: italic;
       height:65px;
-      background-color: gray;
       font-size: 30px;
     }
     header
     {
-      background-color: gray;
       height:420px;
     }
     section
     {
-      background-color: gray;
       height: 800px;
     }
     .PreFooterSection
@@ -55,9 +51,10 @@
     }
     p
     {
+      margin: 20px 0px 20px 0px;
+      width: 900px;
       height: 50px;
       background-color: DimGray;
-      margin: 0px 0px 20px 0px;
       text-align: center;
       font-weight: bold;
       font-style: italic;
@@ -110,6 +107,7 @@
       border-style: solid;
       border-width: 5px;
       border-color: DimGray;
+      background-color: gray;
     }
     .nav3
     {
@@ -119,6 +117,7 @@
       border-style: solid;
       border-width: 5px;
       border-color: DimGray;
+      background-color: gray;
     }
     .header
     {
@@ -129,6 +128,7 @@
       text-align: center;
       font-weight: bold;
       font-style: italic;
+      background-color: gray;
     }
     .header2
     {
@@ -147,7 +147,7 @@
       font-weight: bold;
       font-style: italic;
     }
-    .е
+    .e
     {
       width: 500px;
       height: 340px;
@@ -157,13 +157,133 @@
       width: 480px;
       height: 340px;
     }
+    @media (max-width: 980px) {
+    body
+    {
+      background: none;
+      background-color: gray;
+    }
+    #flex-container
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #flex-container3
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    nav
+    {
+      height: 70px;
+      margin: 0px 0px 0px 0px;
+    }
+    .nav2
+    {
+      width: 300px;
+      height: 20px;
+      font-size:12px;
+    }
+    .nav3
+    {
+      width: 300px;
+      height: 20px;
+      font-size:12px;
+    }
+    header
+    {
+      height: 300px;
+    }
+    .header
+    {
+      height: 20px;
+      width: 300px;
+      margin: 0px 0px 0px 0px;
+      background-color: gray;
+      font-size: 14px;
+    }
+    .e
+    {
+      width: 270px;
+      height: 140px;
+    }
+    .header2
+    {
+      height: 140px;
+      widows: 270px;
+      margin: 0px 10px 0px 0px;
+    }
+    .header3
+    {
+      height: 140px;
+      width: 270px;
+      font-size: 12px;
+      margin: 0px 0px 0px 0px;
+    }
+    p
+    {
+      margin:0px 0px 0px 0px;
+    }
+    .orangeBox1
+    {
+      width: 270px;
+      margin: 20px 0px 0px 0px;
+    }
+    .orangeBox2
+    {
+      width:270px;
+      margin: 20px 0px 0px 0px;
+    }
+    .m
+    {
+      height: 140px;
+      width: 270px;
+    }
+    section
+    {
+      height: 900px
+    }
+    p
+    {
+      font-size: 12px;
+      width:300px;
+      height:20px;
+    }
+    .orangeBox1
+    {
+      font-size: 12px;
+      height: auto;
+    }
+    .orangeBox2
+    {
+      font-size: 12px;
+      height: auto;
+    }
+    .PreFooterSection
+    {
+      margin: 40px 0px 0px 0px;
+      font-size: 12px;
+      width:300px;
+      height:20px;
+    }
+    footer
+    {
+      font-size: 12px;
+      width:300px;
+      height:20px;
+    }
+  }
         </style>
       </head>
       <body>
         <center>
         <nav>
         <div id="flex-container">
-        <div class="nav2"> <a href="index.html">Персональний сайт</a> </div>
+        <div class="nav2"> <a href="Bekh.html">Персональний сайт</a> </div>
         <div class="nav3"> <a href="MySite.html">Про Париж</a> </div>
         </div>
         </nav>
@@ -171,7 +291,7 @@
           <div class="header">Париж - атмосферне місто!</div>
           <div id="flex-container">
           <div id="flex - container2">
-          <div class="header2"><img class="е" src="3.jpg" alt=""/></div>
+          <div class="header2"><img class="e" src="3.jpg" alt=""/></div>
           </div>
           <div class="header3"><br>Париж — це місто-мрія. Хто не чув цієї крилатої фрази, хто не хотів відвідати Париж, а відвідавши знову повернутися сюди. Це місто приваблює всіх: любителів моди й романтики, мистецтва та історії, архітектури та їжі. Тут Ви знайдете майже все: музеї зі світовим ім’ям, модні магазини, цікаві пам’ятки, затишні ресторани та найромантичніші місця.</div>
           </div>
@@ -179,12 +299,12 @@
         </header>
          <p>Відомі пам'ятки архітектури</p>
           <div id = "flex-container3">
-            <div class = "orangeBox1"><img class="m"src="4.jpg" alt=""/><br><h1 style="text-align: center">Cобор Паризької Богоматері</h1>
+            <div class = "orangeBox1"><center><img class="m"src="4.jpg" alt=""/></center><br><h1 align = "center">Cобор Паризької Богоматері</h1>
               Собор Паризької Богоматері недарма вважають одним з найпрекрасніших прикладів французької Готичної архітектури у Франції і в Європі. Пішло два століття, щоб побудувати це диво архітектури та одну з найзнаменитіших Паризьких пам’яток.
     Фотографії цього собору не віддають йому належне, Собор Паризької Богоматері варто обов’язково побачити своїми очима. Рівень деталей, поміщених в скульптури, просто фантастичний.
     Коли Ви побачите цей собор особисто, то дійсно зрозумієте, чому треба було майже 200 років, щоб побудувати Нотр-Дам-де-Парі!
             </div>
-            <div class = "orangeBox2"><img class="m"src="5.jpg" alt=""/><h1 style="text-align: center">Ейфелева вежа</h1>
+            <div class = "orangeBox2"><center><img class="m"src="5.jpg" alt=""/></center><h1 style="text-align: center">Ейфелева вежа</h1>
               Ейфелева вежа одна з найбільш розпізнаваних структур у світі і символ Франції. Якщо Ви не підніметеся на Ейфелеву вежу перебуваючи в Парижі, то втратите дійсно особливий момент у своєму житті. Розмір залізної вежі величезний. Перебуваючи під основою вежі важко повірити в ці гігантські пропорції, на фотографіях неможливо відчути всю велич і красу цієї структури. Ця пам’ятка Парижа обов’язкова для перегляду.
               Ейфелева вежа побудована протягом двох років, у 1887 – 1889 для Виставки Universelle і, як передбачалося, повинна була бути демонтована після заходу.
               Але жителям і гостям Парижа вона настільки сподобалася, що вони вирішили залишити її, і тепер це найпопулярніша визначна пам’ятка в Парижі. Вид з вершини вежі відкривається не тільки на все місто, а й на його околиці.
