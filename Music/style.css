@@ -1,0 +1,58 @@
+.flex-center
+{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.flex-container
+{
+display: flex;
+justify-content: center;
+}
+body
+{
+  background-color: #008080;
+  color: #00FFFF;
+}
+.knopka
+{
+    width: 170px;
+    height: 120px;
+    margin: 0px;
+    background-color: #00FFFF;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-style: none;
+    border-radius: 15px;
+}
+.knopka:hover
+{
+  background-color: royalblue;
+}
+.kartinka1
+{
+  width: 150px;
+  height: 100px;
+}
+.Zagolovok
+{
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+  width: 300px;
+  height: 60px;
+  margin-left: 15px;
+}
+a
+{
+  margin-top: 20px;
+  font-size: 20px;
+}
+h1
+{
+  font-family: Calibri;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="../index.html">На головну</a>
+<div class="flex-center">
+  <div class = "Zagolovok">Tic-Tac-Toe</div></div>
+  <table>
+      <tr>
+        <td><div class = "cell" id = "0" onclick="move(0, 'hero')"></div></td>
+        <td><div class = "cell" id = "1" onclick="move(1, 'hero')"></div></td>
+        <td><div class = "cell" id = "2" onclick="move(2, 'hero')"></div></td>
+      <tr>
+      </tr>
+        <td><div class = "cell" id = "3" onclick="move(3, 'hero')"></div></td>
+        <td><div class = "cell" id = "4" onclick="move(4, 'hero')"></div></td>
+        <td><div class = "cell" id = "5" onclick="move(5, 'hero')"></div></td>
+      <tr>
+      </tr>
+        <td><div class = "cell" id = "6" onclick="move(6, 'hero')"></div></td>
+        <td><div class = "cell" id = "7" onclick="move(7, 'hero')"></div></td>
+        <td><div class = "cell" id = "8" onclick="move(8, 'hero')"></div></td>
+      </tr>
+    </table>
+    <div class="flex-center">
+    <div class = "result"></div></div>
+    <center><button class="knopka" onclick="restart()">Restart</button></div></center>
+    <script src="TicTacToe.js"></script>
+</body>
+</html>
